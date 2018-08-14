@@ -11,6 +11,10 @@ namespace TestProj
         static void Main(string[] args)
         {
             Console.WriteLine("Yo!");
+            if (1<2)
+            {
+                Console.WriteLine("1 is smaller than 2");
+            }
             Console.ReadKey();
         }
     }
